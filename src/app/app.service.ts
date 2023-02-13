@@ -11,25 +11,16 @@ export class AppService {
   }
   users=[
     {
-      firstName: 'aksf',
-      lastName:'adskjf',
-      email: "dhdsjg"
+      firstName: 'demofirstname',
+      lastName:'demosurname',
+      email: "demoemail"
     },
     {
-      firstName: 'aksf',
-      lastName:'adskjf',
-      email: "dhdsjg"
+      firstName: 'demofirstname2',
+      lastName:'demosurname2',
+      email: "demoemail2"
     },
-    {
-      firstName: 'aksf',
-      lastName:'adskjf',
-      email: "dhdsjg"
-    },
-    {
-      firstName: 'aksf',
-      lastName:'adskjf',
-      email: "dhdsjg"
-    }
+    
   ]
   getUsers(){
     return this.users;
